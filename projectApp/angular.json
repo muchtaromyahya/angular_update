@@ -24,7 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../node_modules/bootsrap/dist/css/bootstrap.css",
+              "../node_modules/bootsrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "projectApp"
+    }
+  },
+  "defaultProject": "projectApp",
+  "cli": {
+    "analytics": "2e2d984a-82a2-4409-8751-1bc4f39eae53"
+  }
 }
